@@ -192,14 +192,14 @@ end
 end
 
 %----patikrinimas-----------------
-for z = 1:5
-   v = x1(z)*W(1)+x2(z)*W(2)+b;
+for g = 1:5
+   v = x1(g)*W(1)+x2(g)*W(2)+b;
 if v > 0
     y = 1;
 else 
     y = -1;
     
 end
- e11 = T(z) - y; 
+ e11 = T(g) - y; 
     
 end
